@@ -1,0 +1,57 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+  letter-spacing: 2px;
+  background-image: url("../images/tanjiro.png");
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.top_main {
+  text-align: center;
+  position: relative;
+}
+
+.top_main.kuzi {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.omikuzi_button {
+  text-align: center;
+}
+
+.omikuzi_button #btn {
+  margin: 50px;
+  padding: 10px;
+  background-color: red;
+  font-size: 1.6rem;
+  border-radius: 6px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.omikuzi_button #btn:hover {
+  -webkit-box-shadow: 5px 5px 8px 1px rgba(255, 235, 59, 0.6);
+          box-shadow: 5px 5px 8px 1px rgba(255, 235, 59, 0.6);
+  letter-spacing: 2px;
+  font-weight: 600;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.omikuzi_button .top_main {
+  width: 80%;
+}
+/*# sourceMappingURL=omikuzi.css.map */
